@@ -20,7 +20,7 @@ catkin_make
 
 2. Source your package & add robot model in ros environment.
 ```
-echo "source ~/suas_ws/devel/setup.bash" >> ~/.bashrc
+echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 echo "export TURTLEBOT3_MODEL=waffle_pi" >> ~/.bashrc
 source ~/.bashrc
 ```
