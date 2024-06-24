@@ -25,7 +25,9 @@ echo "export TURTLEBOT3_MODEL=waffle_pi" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-3. Check the installations by launching the maze world
+3. Copy the contents of `others/my_maze1` directory to your `~/.gazebo/models` folder.
+
+5. Check the installations by launching the maze world.
    
 ```
 roslaunch turtlebot3_mazesolver turtlebot3_maze_world.launch
