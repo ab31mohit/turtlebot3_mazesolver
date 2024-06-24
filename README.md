@@ -32,7 +32,7 @@ echo "export TURTLEBOT3_MODEL=waffle_pi" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-5. Copy the contents of `others/my_maze1` directory to your `~/.gazebo/models` folder.
+5. Copy the contents of `others` directory to your `~/.gazebo/models` folder.
 
 6. Check the installations by launching the maze world.
    
